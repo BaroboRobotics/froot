@@ -4,3 +4,9 @@
 [submodule "ribbon-bridge"]
 	path = ribbon-bridge
 	url = git@github.com:harrishancock/ribbon-bridge.git
+[submodule "libsfp"]
+	path = libsfp
+	url = git@github.com:BaroboRobotics/libsfp.git
+[submodule "LwMesh"]
+	path = LwMesh
+	url = git@github.com:BaroboRobotics/LwMesh.git
