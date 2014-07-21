@@ -8,5 +8,7 @@ RPCDEF_CPP((barobo, Robot),
         ,
         (ledColor)
         ,
+        (dummyMethod)
         ,
+        (dummyBroadcast)
         )

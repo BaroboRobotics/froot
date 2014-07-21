@@ -10,3 +10,6 @@
 [submodule "LwMesh"]
 	path = LwMesh
 	url = git@github.com:BaroboRobotics/LwMesh.git
+[submodule "serial"]
+	path = serial
+	url = git@github.com:BaroboRobotics/serial.git
