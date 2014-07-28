@@ -31,3 +31,10 @@ message ledColor {
     required uint32 value = 1;
 }
 
+message dummyMethod {
+    message In {}
+    message Result {}
+}
+
+message dummyBroadcast {
+}

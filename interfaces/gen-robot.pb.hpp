@@ -17,8 +17,10 @@ RPCDEF_HPP(
         (ledColor)
         ,
         // all methods
+        (dummyMethod)
         ,
         // all broadcasts
+        (dummyBroadcast)
         )
 
 #endif
