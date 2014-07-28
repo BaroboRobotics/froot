@@ -1,6 +1,3 @@
-[submodule "DOF_firmware"]
-	path = DOF_firmware
-	url = git@github.com:Barobo/DOF_firmware.git
 [submodule "ribbon-bridge"]
 	path = ribbon-bridge
 	url = git@github.com:BaroboRobotics/ribbon-bridge.git
