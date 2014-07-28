@@ -16,12 +16,12 @@ set(VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 
 add_definitions("-DPHY_ATMEGA128RFA1 -DHAL_ATMEGA128RFA1"
                 "-DPLATFORM_RCB128RFA1 -DF_CPU=16000000L")
-set(CMAKE_C_FLAGS "-Wall -std=gnu99 -O2 -fno-zero-initialized-in-bss -fdata-sections -ffunction-sections -funsigned-char -funsigned-bitfields -mmcu=atmega128rfa1")
-set(CMAKE_CXX_FLAGS "-Wall -std=c++11 -O2 -fno-zero-initialized-in-bss -fdata-sections -ffunction-sections -funsigned-char -funsigned-bitfields -mmcu=atmega128rfa1")
+set(CMAKE_C_FLAGS "-Wall -std=gnu11 -O2 -fno-zero-initialized-in-bss -fdata-sections -ffunction-sections -funsigned-char -funsigned-bitfields -mmcu=atmega128rfa1")
+set(CMAKE_CXX_FLAGS "-Wall -std=c++11 -O2 -fno-zero-initialized-in-bss -fdata-sections -ffunction-sections -funsigned-char -funsigned-bitfields -fno-threadsafe-statics -mmcu=atmega128rfa1")
 set(CMAKE_EXE_LINKER_FLAGS "-Wl,--gc-sections -mmcu=atmega128rfa1 -Wl,-u,vfprintf")
 
 add_subdirectory(ribbon-bridge)
-add_subdirectory(interfaces)
+add_subdirectory(ribbon-bridge-interfaces)
 add_subdirectory(libsfp)
 add_subdirectory(LwMesh)
 add_subdirectory(firmware)

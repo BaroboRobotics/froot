@@ -13,3 +13,9 @@
 [submodule "serial"]
 	path = serial
 	url = git@github.com:BaroboRobotics/serial.git
+[submodule "linkbot-firmware"]
+	path = linkbot-firmware
+	url = git@github.com:BaroboRobotics/linkbot-firmware.git
+[submodule "ribbon-bridge-interfaces"]
+	path = ribbon-bridge-interfaces
+	url = git@github.com:BaroboRobotics/ribbon-bridge-interfaces.git
