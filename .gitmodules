@@ -3,7 +3,7 @@
 	url = git@github.com:Barobo/DOF_firmware.git
 [submodule "ribbon-bridge"]
 	path = ribbon-bridge
-	url = git@github.com:harrishancock/ribbon-bridge.git
+	url = git@github.com:BaroboRobotics/ribbon-bridge.git
 [submodule "libsfp"]
 	path = libsfp
 	url = git@github.com:BaroboRobotics/libsfp.git
