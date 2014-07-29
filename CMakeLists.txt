@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(froot)
 
-include(${PROJECT_SOURCE_DIR}/firmware/arm_macros.cmake)
-
 set(BUILD_SHARED_LIBS OFF)
 
 if (NOT DEFINED CMAKE_TOOLCHAIN_FILE)
@@ -24,4 +22,4 @@ add_subdirectory(ribbon-bridge)
 add_subdirectory(ribbon-bridge-interfaces)
 add_subdirectory(libsfp)
 add_subdirectory(LwMesh)
-add_subdirectory(firmware)
+add_subdirectory(linkbot-firmware)
